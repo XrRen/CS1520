@@ -1,0 +1,14 @@
+input, button {
+    padding: 5px;
+    height: 30px;
+}
+
+#title {
+    color:blue;
+    margin: 10px;
+    text-align: center;
+}
+
+fieldset {
+    margin: 20px 50px;
+}

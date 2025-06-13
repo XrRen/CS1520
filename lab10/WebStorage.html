@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Storage</title>
+    <link rel="stylesheet" href="WebStorage.css">
+    <script type="text/javascript" src="WebStorage.js"></script>
+</head>
+
+<body>
+    <h2 id="title"> Web Storage - JavaScript </h2>
+    <fieldset>
+        <legend> View Contents of the Local Storage </legend>
+        <input type="button" id="viewContentsOfLocalStorageButton" value="View Contents of Local Storage">
+    </fieldset>
+
+    <fieldset>
+        <legend> Insert Data into Local Storage </legend>
+        <input type="text" id="insertKeyTextInputField" placeholder="Enter key...">
+        <input type="text" id="insertValueTextInputField" placeholder="Enter Value...">
+        <input type="button" id="insertItemIntoLocalStorageButton" value="Insert Data into Local Storage">
+    </fieldset>
+    <fieldset>
+        <legend> Delete Data from Local Storage </legend>
+        <input type="text" id="deleteKeyTextInputField" placeholder="Enter Key...">
+        <input type="button" id="deleteItemButton" value="Delete Item">
+        <input type="button" id="clearStorageButton" value="Clear Web Storage">
+    </fieldset>
+    <fieldset>
+        <legend> Web Storage Current Contents </legend>
+        <div id="outputListArea">  </div>
+    </fieldset>
+</body>
+
+</html>
