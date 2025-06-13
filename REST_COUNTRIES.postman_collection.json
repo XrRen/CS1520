@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "b64c0cb2-c343-44fa-a8d3-8f3ac9cf5288",
+		"name": "REST_COUNTRIES",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39344163"
+	},
+	"item": [
+		{
+			"name": "all countries cataloged",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "baseURL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/all",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Canada",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/name/canada",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"name",
+						"canada"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dollar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/currency/dollar",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"currency",
+						"dollar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Portuguese",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/lang/portuguese",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"lang",
+						"portuguese"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "South America",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/subregion/south america",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"subregion",
+						"south america"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Kinshasa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/capital/kinshasa",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"capital",
+						"kinshasa"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "https://restcountries.com/v3.1/all"
+		}
+	]
+}

@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/index.css">
+    <script type="text/javascript" src="main-style.js"></script>
+    <title>Sherry Ren</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Car Dealer App</h1>
+    <hr>
+    <div class="left_side">
+        <div id="car_types">
+            <label for="type">Car Types</label>
+            <br>
+            <select name="type" id="type">
+                <option value="Ferrari">Ferrari</option>
+                <option value="Lamborghini">Lamborghini</option>
+                <option value="Mustang">Mustang</option>
+            </select>
+        </div>
+        <br><br>
+        <div id="car_color">
+            <label for="color">Car Color</label>
+            <br>
+            <select name="color" id="color">
+                
+            </select>
+        </div>
+        <br><br>
+        <div id="insurance">
+            <label for="insurance">Insurance Plan</label>
+            <br>
+            <input type="radio" id="none">
+            <label for="none">No Insurance</label>
+            <br>
+            <input type="radio" id="three_year" checked="checked">
+            <label for="three_year">3-year insurance</label>
+            <br>
+        </div>
+    </div>
+    
+    <div class="right_side">
+        <div id="pictures">
+            <img src="/Ferrari.png">
+        </div>
+        <div id="description">
+            <h3>Description</h3>
+            <textarea id="descrip" name="descrip" rows="10" cols="75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, delectus. Neque debitis aliquam minima! Odit ipsum culpa possimus expedita quibusdam. Perferendis veniam facilis molestiae id possimus reiciendis laborum nulla maiores?</textarea>
+        </div>
+    </div>
+    <script type="text/javascript">initCars()</script>
+</body>

@@ -1,0 +1,55 @@
+{
+  "blogs": [
+    {
+      "brand": "Nokia 8.3",
+      "price": "$989.99",
+      "screen": "6.81 inches",
+      "pixels": "1080*2400",
+      "resolution": "386 PPI",
+      "storage": "128 GB",
+      "ram": "8 GB",
+      "battery": "4500 mAh",
+      "weight": "8.01 ouces",
+      "id": "1"
+    },
+    {
+      "brand": "LG V50 ThinQ",
+      "price": "$158.00",
+      "screen": "6.4 inches",
+      "pixels": "1440 * 3120",
+      "resolution": "537 PPI",
+      "storage": "128 GB",
+      "ram": "6 GB",
+      "battery": "4000 mAh",
+      "weight": "6.46 ounces",
+      "id": "2"
+    },
+    {
+      "brand": "Honor 20e",
+      "price": "$365.00",
+      "screen": "6.21 inches",
+      "pixels": "1080*2340",
+      "resolution": "415 PPI",
+      "storage": "64 GB",
+      "ram": "4 GB",
+      "battery": "3400 mAh",
+      "weight": "5.78 ounces",
+      "id": "3"
+    },
+    {
+      "brand": "Samsung Galaxy A10e",
+      "price": "$68.06",
+      "screen": "5.83 inches",
+      "pixels": "720 * 1560",
+      "resolution": "295 PPI",
+      "storage": "32 GB",
+      "ram": "2 GB",
+      "battery": "3000 mAh",
+      "weight": "4.97 ounces",
+      "id": "4"
+    }
+  ],
+  "info": {
+    "Info": "to simulate an API from this db.json, type the following commande in the terminal window: npx json-server --watch db.json --port 8000"
+  }
+}

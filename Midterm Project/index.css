@@ -1,0 +1,68 @@
+@media (min-width: 768px) {
+    .left_side {
+        font-size: large;
+        padding-top: 20px;
+        float: left;
+    }
+    
+    #car_types {
+        line-height: 2;
+    }
+    
+    #car_color {
+        line-height: 2;
+    }
+    
+    #insurance {
+        line-height: 1.5;
+    }
+    
+    .right_side {
+        float: right;
+        /*padding-left: 150px;*/
+    }
+    #description
+    {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .left_side, .right_side {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    .left_side {
+        padding-top: 20px;
+        float: left;
+    }
+
+    #car_types {
+        line-height: 2;
+    }
+
+    #car_color {
+        line-height: 2;
+    }
+
+    #insurance {
+        line-height: 1.5;
+    }
+
+    .right_side {
+        float: left;
+    }
+    #pictures{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    #description
+    {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
